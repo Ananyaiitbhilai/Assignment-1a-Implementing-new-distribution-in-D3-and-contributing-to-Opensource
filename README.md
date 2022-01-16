@@ -1,4 +1,20 @@
 # Assignment 1a: Implementing new distribution in D3 and contributing to Opensource
+## Index content for observable Notebok
+1. Probability density Function
+2. Visualisation of Chi-square function through Line Plot
+ - Image for pdf of Chi-square Distribution
+3. Visualisation of Chi-square function through Pachinko
+ - Chi-Square Formula
+ - Pachinko
+4. Cumulative Distribution Function
+ - Image for cdf of Chi-square Distribution
+5. Base Code
+ - Probability distribution Function
+ - Pachinko
+ - Cumulative Distribution Function
+6. What is the Chi-Square Test?
+7. When is the Chi-Square Test Used?
+8. Example on Chi-Square Goodness of Fit Test
 ## Implementation details and workflow
 I have made both pdf and cdf for chi-square distribution and have visaulised it through pachinko function for random values of x and Chart for continuous graph with values of x defined in an array having 8000 values of in range[0,20]. 
 First I wrote Gamma function which was computed using Lanczos approximation. As written in observable notebook itself Chi-square function uses Gamma function for computation.<br><br>
