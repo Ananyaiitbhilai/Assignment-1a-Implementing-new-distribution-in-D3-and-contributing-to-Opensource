@@ -1,6 +1,6 @@
 # Assignment 1a: Implementing new distribution in D3 and contributing to Opensource
 ## Implementation details and workflow
-I have made both pdf and cdf for chi-square distribution and have visulaised it through pachinko function for random values of x and Chart for continuous graph. 
+I have made both pdf and cdf for chi-square distribution and have visaulised it through pachinko function for random values of x and Chart for continuous graph. 
 First I wrote Gamma function which was computed using Lanczos approximation. As written in observable notebook itself Chi-square function uses Gamma function for computation. <br>
 There is a way to define chi square function as:<br>
 If Z is a standard normal random variable, the distribution of U =   is called the chi-square distribution with 1 degree of freedom.<br>
