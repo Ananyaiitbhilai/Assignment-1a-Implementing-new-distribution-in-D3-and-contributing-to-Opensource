@@ -31,7 +31,7 @@ y is Chi-square function with parameter x and n, n is degree of freedom. <br>
 |0.1|1.2000389484301357|
 |0.1390|0.9982037549037381|
 |0.140|0.9941351606919718|
-
+This table is for degree of freedom=1
 ### Comparing Pachinko and Chart 
 #### Degree of freedom= 1
 ![](https://github.com/Ananyaiitbhilai/Assignment-1a-Implementing-new-distribution-in-D3-and-contributing-to-Opensource/blob/main/local%20images/Screenshot%202022-01-17%20at%201.33.22%20AM.png)<br>
