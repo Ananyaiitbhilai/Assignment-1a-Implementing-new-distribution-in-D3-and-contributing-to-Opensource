@@ -8,10 +8,30 @@ If Z is a standard normal random variable, the distribution of U =  is called th
 If U1, U2, . . . ,Un are independent chi-square random variables with 1 degree of freedom, the distribution of V = U1 + U2 + ・ ・ ・ + Un is called the chi-square distribution with n degrees of freedom. <br><br>
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYWMp3ikBKN8juzmVF3vrBmviSdABYgsSgw&usqp=CAU)<br><br>
                                                                                                                 
-For chart, Samples were taken which are defined in the array named "data". Then a library was imported whose link is https://d3js.org/d3.v5.min.js.<br>
-For pachinko, random values were generated using Math.random.
+For Chart, Samples were taken which are defined in the array named "domain". Then a library was imported whose link is https://d3js.org/d3.v5.min.js.<br>
+For pachinko, random values were generated using Math.random.<br>
 All the things about Chi-square are stated in Observable notebook.<br>
 For better understanding I have also included an example based on the same distribution.<br>
+In chi-square distribution when x=0 and degree of freedom = 1, the function goes to infinity hence the graph can't be plotted.<br>
+Giving values of x and y <br>
+|x|y|
+|-----|--------|
+|0.0000000000001|1261566.2610100168|
+|0.000000000001|398942.2804012331|
+|0.00000000001|126156.62610037724|
+|0.0000000001|39894.22803814855|
+|0.000000001|12615.662603792965|
+|0.00000001|3989.422784067213|
+|0.0000001|1261.5661979317683|
+|0.000001|398.94208093034234|
+|0.00001|126.15599531945442|
+|0.0001|39.8922333786082|
+|0.001|12.609356355490782|
+|0.01|3.969525474770117|
+|0.1|1.2000389484301357|
+|0.1390|0.9982037549037381|
+|0.140|0.9941351606919718|
+
 ### Comparing Pachinko and Chart 
 #### Degree of freedom= 1
 ![](https://github.com/Ananyaiitbhilai/Assignment-1a-Implementing-new-distribution-in-D3-and-contributing-to-Opensource/blob/main/local%20images/Screenshot%202022-01-17%20at%201.33.22%20AM.png)<br>
