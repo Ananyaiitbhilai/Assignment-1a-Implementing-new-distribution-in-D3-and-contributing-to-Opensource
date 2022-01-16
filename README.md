@@ -12,9 +12,9 @@ For Chart, Samples were taken which are defined in the array named "domain". The
 For pachinko, random values were generated using Math.random.<br>
 All the things about Chi-square are stated in Observable notebook.<br>
 For better understanding I have also included an example based on the same distribution.<br>
-In chi-square distribution when x=0 and degree of freedom = 1, the function goes to infinity hence the graph can't be plotted.<br>
-Giving values of x and y <br>
-|x|y|
+In chi-square distribution when x=0 and degree of freedom = 1, the function goes to infinity hence the graph can't be plotted at that point.<br>
+y is Chi-square function with parameter x and n, n is degree of freedom. <br>
+|Value of x|Value of y|
 |-----|--------|
 |0.0000000000001|1261566.2610100168|
 |0.000000000001|398942.2804012331|
