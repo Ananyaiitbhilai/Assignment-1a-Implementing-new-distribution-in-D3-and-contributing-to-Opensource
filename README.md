@@ -2,16 +2,16 @@
 ## Index content for observable Notebok
 1. Probability density Function
 2. Visualisation of Chi-square function through Line Plot
- - Image for pdf of Chi-square Distribution
+   - Image for pdf of Chi-square Distribution
 3. Visualisation of Chi-square function through Pachinko
- - Chi-Square Formula
- - Pachinko
+   - Chi-Square Formula
+   - Pachinko
 4. Cumulative Distribution Function
- - Image for cdf of Chi-square Distribution
+   - Image for cdf of Chi-square Distribution
 5. Base Code
- - Probability distribution Function
- - Pachinko
- - Cumulative Distribution Function
+   - Probability distribution Function
+   - Pachinko
+   - Cumulative Distribution Function
 6. What is the Chi-Square Test?
 7. When is the Chi-Square Test Used?
 8. Example on Chi-Square Goodness of Fit Test
