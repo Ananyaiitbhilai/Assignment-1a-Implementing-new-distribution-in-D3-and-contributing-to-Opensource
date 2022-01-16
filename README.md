@@ -30,7 +30,7 @@ y is Chi-square function with parameter x and n, n is degree of freedom. <br>
 |0.01|3.969525474770117|
 |0.1|1.2000389484301357|
 |0.1390|0.9982037549037381|
-|0.140|0.9941351606919718|
+|0.140|0.9941351606919718|<br>
 This table is for degree of freedom=1
 ### Comparing Pachinko and Chart 
 #### Degree of freedom= 1
