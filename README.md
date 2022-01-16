@@ -6,6 +6,7 @@ First I wrote Gamma function which was computed using Lanczos approximation. As 
 There is a way to define chi square function as:<br>
 If Z is a standard normal random variable, the distribution of U =  is called the chi-square distribution with 1 degree of freedom.<br>
 If U1, U2, . . . ,Un are independent chi-square random variables with 1 degree of freedom, the distribution of V = U1 + U2 + ・ ・ ・ + Un is called the chi-square distribution with n degrees of freedom. <br>
+![Chi-square pdf function](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYWMp3ikBKN8juzmVF3vrBmviSdABYgsSgw&usqp=CAU)<br>
 For chart, Samples were taken which are defined in the array named "data". Then a library was imported whose link is https://d3js.org/d3.v5.min.js.<br>
 For pachinko, random values were generated using Math.random.
 All the things about Chi-square are stated in Observable notebook.<br>
