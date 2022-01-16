@@ -2,6 +2,9 @@
 ## Implementation details and workflow
 I have made both pdf and cdf for chi-square distribution and have visaulised it through pachinko function for random values of x and Chart for continuous graph. 
 First I wrote Gamma function which was computed using Lanczos approximation. As written in observable notebook itself Chi-square function uses Gamma function for computation. <br>
+${tex.block`
+\mathrm{\chi^2}(x | k) = \frac{1}{{2^\frac{k}{2}} \Gamma(\frac{k}{2})} x^{\frac{k}{2}-1} e^{-\frac{x}{2}},\hspace{1em} x\in(0,\infty)
+`}
 There is a way to define chi square function as:<br>
 If Z is a standard normal random variable, the distribution of U =   is called the chi-square distribution with 1 degree of freedom.<br>
 If U1, U2, . . . ,Un are independent chi-square random variables with 1 degree of freedom, the distribution of V = U1 + U2 + ・ ・ ・ + Un is called the chi-square distribution with n degrees of freedom. <br>
