@@ -11,6 +11,6 @@ All the things about Chi-square are stated in Observable notebook.<br>
 For better understanding I have also included an example based on the same distribution.<br>
 
 The link for my observable notebook is : https://observablehq.com/d/828cb6afa0941dda
-### Referece links
+### Reference links
 - https://observablehq.com/@dswalter/normal-distribution
 - https://observablehq.com/@herbps10/gamma-distribution
