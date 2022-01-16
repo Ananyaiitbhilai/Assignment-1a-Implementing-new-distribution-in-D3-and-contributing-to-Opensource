@@ -11,6 +11,7 @@ For chart, Samples were taken which are defined in the array named "data". Then 
 For pachinko, random values were generated using Math.random.
 All the things about Chi-square are stated in Observable notebook.<br>
 For better understanding I have also included an example based on the same distribution.<br>
+### Comparing Pachinko and Chart 
 - **Degree of freedom = 2**
 ![](https://github.com/Ananyaiitbhilai/Assignment-1a-Implementing-new-distribution-in-D3-and-contributing-to-Opensource/blob/main/local%20images/Screenshot%202022-01-17%20at%201.25.02%20AM.png)<br>
 The link for my observable notebook is : https://observablehq.com/d/828cb6afa0941dda
