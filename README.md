@@ -7,6 +7,7 @@
    - Chi-Square Formula
    - Pachinko
 4. Cumulative Distribution Function
+   - Visualisation through line plot
    - Image for cdf of Chi-square Distribution
 5. Base Code
    - Probability distribution Function
@@ -16,7 +17,8 @@
 7. When is the Chi-Square Test Used?
 8. Example on Chi-Square Goodness of Fit Test
 ## Implementation details and workflow
-I have made both pdf and cdf for chi-square distribution and have visaulised it through pachinko function for random values of x and Chart for continuous graph with values of x defined in an array having 8000 values of in range[0,20]. 
+I have made both pdf and cdf for chi-square distribution and have visualised  it through pachinko function for random values of x and Line plot for continuous graph with values of x defined in an array having 1000
+values in range of [0,20]. 
 First I wrote Gamma function which was computed using Lanczos approximation. As written in observable notebook itself Chi-square function uses Gamma function for computation.<br><br>
 ![](https://math.info/image/32/chi-sqaure_pdf.gif)<br><br>
 There is a way to define chi square function as:<br>
@@ -24,7 +26,7 @@ If Z is a standard normal random variable, the distribution of U =  is called th
 If U1, U2, . . . ,Un are independent chi-square random variables with 1 degree of freedom, the distribution of V = U1 + U2 + ・ ・ ・ + Un is called the chi-square distribution with n degrees of freedom. <br><br>
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYWMp3ikBKN8juzmVF3vrBmviSdABYgsSgw&usqp=CAU)<br><br>
                                                                                                                 
-For Chart, Samples were taken which are defined in the array named "domain". Then a library was imported whose link is https://d3js.org/d3.v5.min.js.<br>
+For Line plot, Samples were taken which are defined in the array named "domain". Then a library was imported whose link is https://d3js.org/d3.v5.min.js.<br>
 For pachinko, random values were generated using Math.random.<br>
 All the things about Chi-square are stated in Observable notebook.<br>
 For better understanding I have also included an example based on the same distribution.<br>
@@ -49,7 +51,7 @@ This table is for degree of freedom=1
 |0.1390|0.9982037549037381|
 |0.140|0.9941351606919718|
 
-### Comparing Pachinko and Chart 
+### Comparing Pachinko and Line Plot visualisations
 #### Degree of freedom= 1
 ![](https://github.com/Ananyaiitbhilai/Assignment-1a-Implementing-new-distribution-in-D3-and-contributing-to-Opensource/blob/main/local%20images/Screenshot%202022-01-17%20at%201.33.22%20AM.png)<br>
 ![](https://github.com/Ananyaiitbhilai/Assignment-1a-Implementing-new-distribution-in-D3-and-contributing-to-Opensource/blob/main/local%20images/Screenshot%202022-01-17%20at%201.32.16%20AM.png)<br>
